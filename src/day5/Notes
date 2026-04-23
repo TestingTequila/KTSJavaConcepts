@@ -1,0 +1,19 @@
+multiple if statement can give you incorrect result
+Performance of multiple if statement is also not good because it will check all the conditions even if one condition is true.
+
+
+int x =7;
+int y =7;
+
+x==y
+
+String student1 = "John";
+String student2 = "John";
+
+student1.equals(student2)
+
+Switch does not support >, <, >=, <=
+Switch does not support data types as : long, float, double, boolean
+Switch doesn't support && operator
+
+

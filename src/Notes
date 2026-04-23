@@ -1,0 +1,129 @@
+KTS:
+
+Selenium: Programming Language[Java/C#] + Locators[HTML]
+
+Framework:
+
+1. TDD [Test Driven Development]
+       -TestNG/JUnit
+       -MSTest/NUnit
+
+2. BDD [Behavior Driven Development]
+       -Cucumber
+       -Speckflow
+
+4-5 : Java/C#
+
+---------------------------------------------------------------------------
+
+Java:
+
+1. Check if java/maven is installed or not: java -version/mvn -version
+
+   JDK[Java Development Kit]:
+   LTS version: Long Term Support version
+
+   JDK 1.8 or JDK 8
+   JDK 1.15 or JDK 15
+
+   JDK: Java Development Kit: libraries, methods, compilers, debuggers, interpreters
+
+   JDK=> Write the code[Development]  + Running the code[Execute]
+
+   JDK => JVM + JRE
+
+   -----------------------------------------------------------------------
+   Java is platform independent Language?
+
+   Human Readable Languages[Source Code.java(test.java)]-->javac -->Byte Code(test.class)-->JIT----> Machine Languages--->JRE [run /Execute]
+
+
+  HRC(source Code)---> c1---> Machine Code
+
+   Java -- Windows
+   Java -- Mac % brew install openjdk@26
+
+IDE: Integrated Development Environment
+     -Eclipse/IntelliJ
+
+--------------------------------------
+1. check java is installed : java -version
+2. IntelliJ : https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows
+3. Create a project
+      -src --> package[folders] --> Class[pages]
+
+
+
+  Maths(20)    History(44)        Science(36)
+
+  20+44+36
+
+------------------------------------------------------------------------------
+
+variables: to store/hold value
+DataType variableName = value;
+
+DataType:
+primitive data type: byte, short, int, long, float, double, char, boolean
+ -they don't need object to use them
+ -while using primitive data type we know in advance how much memory will they consume
+
+ byte -  1 byte (8 bits)
+        -128 to 127
+
+ short - 2 byte(16 bits)
+        -32768 to 32767
+
+ int   - 4 byte (32 bits)
+       -2147483648 to  2147483647
+
+ long   - 8 byte (64 bits)
+
+ float  - 4 bytes
+          upto 6 decimal places
+ double - 8 bytes
+          more than 6 decimal places
+
+ char   - 2 bytes (16 bits)
+          [A-Z][a-z][0-9][!@#$%^&*()_+]
+
+ boolean - ~1 bit
+           true, false
+
+           ----------------------------------
+           1. we should not store a number as byte or short if we are performing mathematical operations using them
+           2. char data type will start showing its numeric behaviour, if we perform mathematical operations using them
+
+
+           short x = 25;
+           System.out.println(x*4);
+
+
+           // dataType variableName = value; [we use this when we know the exact value that we want to store]
+           // dataType variableName;         [we use this when we don't know the exact value to store at that point of time]
+
+
+
+
+non-primitive data type: class, object, String.....
+ -they need object to use them
+ -while using non-primitive data type we don't know in advance how much memory will they consume
+
+
+ int x =100000;  //4 byte
+
+ String s = "Bharat"; // 12 bytes
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+1. Statements: making decisions
+   a) if-else statement [only when we have to make one decision]
+   b) multiple if else if statement[if we to make multiple decisions]
+   c) switch statement [if we to make multiple decisions, but this is faster]
+
+
+   if(condition)
+   {
+     code here will execute only if condition is true
+   }
