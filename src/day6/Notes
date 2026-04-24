@@ -1,0 +1,34 @@
+Loops:
+
+- while loop
+  define and initialize a variable
+  while(condition)
+  {
+    if condition is true, code here will execute, else not execute
+    I/D;
+  }
+
+
+- for loop
+
+
+  for(define and initialize a variable;condition;I/D)
+  {
+    if condition is true, code here will execute, else not execute
+  }
+
+
+- advanced for loop [for each loop]
+
+
+We should mostly use for loop we know the exact starting & end points
+
+if we are not sure of end point, only while preferred OR
+
+when we are not sure about the number of iterations, we prefer while loop
+
+===============================================================================
+
+Loops
+Arrays
+methods
