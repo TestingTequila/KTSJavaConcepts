@@ -1,0 +1,13 @@
+Arrays: whenever we have something in a group and of similar type, we should think of storing it as an array
+
+
+        //Variable are like boxes/jara/containers meant for holding the values
+        // 10
+
+        //1. dataType variableName = value; [when we know the exact value to store]
+        int x = 10;
+
+        //2. dataType variableName;         [when we don't know the exact value to store]
+        int age;
+
+        // variable can hold only and only one value at a time

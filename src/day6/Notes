@@ -20,6 +20,11 @@ Loops:
 
 - advanced for loop [for each loop]
 
+  for(variable :nameOfArray)
+  {
+     action
+  }
+
 
 We should mostly use for loop we know the exact starting & end points
 
