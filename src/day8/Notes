@@ -1,0 +1,27 @@
+What is class : Class is a template
+What is object: copies[object] of the class[template]
+What is relationship b/w class and object: class is template and every copy of that template is its object
+Visual representation of class and object
+
+
+Jason
+Kerrie
+Lee
+Radha
+Tony
+
+
+1. Select the file
+2. Right click on the file
+3. Select the Copy option
+4. IDENTIFY THE LOCATION WHERE YOU WANT TO CREATE THE COPY
+5. Go to that location
+6. Right Click on that location
+7. Select Paste option
+8. Select the pasted file
+9. Right click on pasted file
+10. Select Rename
+11. Change  the name
+12. Press Enter
+
+    NameOfTheClass nameOfTheNewCopy= new NameOfTheClass();

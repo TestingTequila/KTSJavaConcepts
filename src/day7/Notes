@@ -11,3 +11,15 @@ Arrays: whenever we have something in a group and of similar type, we should thi
         int age;
 
         // variable can hold only and only one value at a time
+
+
+        We use below syntax when we know the exact values that we to store
+        dataType[] arrayName = {value1, value2, value3, value4.......};
+
+
+        We use below syntax if we don't know the exact values that we to store, but know their count
+
+        dataType[] arrayName = new dataType[count]
+
+
+        We must use arrays only in those cases, where we are quite sure the count of values to store won't change.
