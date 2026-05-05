@@ -1,0 +1,15 @@
+Computer
+
+Computer mac1= new Computer();
+
+
+Abacus
+
+
+Abacus aba1= new Abacus();
+
+
+Select
+
+
+Select ddl= new Select();
