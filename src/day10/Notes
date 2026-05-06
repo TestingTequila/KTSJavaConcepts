@@ -1,0 +1,23 @@
+Methods: are actions performed over class variables
+
+Tea:
+ -Tea leaves
+ -Milk powder
+ -Sugar
+ -Ginger
+ -Water
+
+ ----------------------------------------------------------------------
+
+ accessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+ {
+    action over class variables
+ }
+
+ --------------------------steps to think-------------------------------
+
+ 1. Think of action to be performed [Method]
+ 2. What variables you need for that method
+ 3. We create these variables and methods within the class - Generic class [Template]
+ 4. In order to use this generic class, we need to create object(copy) of this &
+    for this we need a class with main method.
