@@ -4,14 +4,24 @@ public class Maths {
     //WAP to add two integer numbers
 
     int x;
-    int y;
+    private int y;
 
-    public  void addition()
+    int a;
+    int b;
+
+    private  void addition()
     {
         int sum =x+y;
         System.out.println("Addition of " + x + " and " + y + " is: " + sum);
     }
 
+    //WAP to subtract two integer numbers
+
+    public void subtraction()
+    {
+        int difference =a-b;
+        System.out.println("The difference of " + a + " and " + b + " is: " + difference);
+    }
 
 }
 

@@ -1,0 +1,10 @@
+1. Global Variables/Instance Variables/ Class Level Variables
+   -their values can be shared by all the methods of the same class
+
+2. Parameters
+   -they belong to the method only in which the are created and can't be shared
+
+3. Local Variable
+   -they are created within the {} of method
+
+
