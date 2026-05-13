@@ -1,0 +1,3 @@
+Global/Class/Instance Variable :  When we want to share the value of the variable with multiple methods of same or different classes
+Parameters : This belongs to the specific method in which this is defined and cannot be shared
+Local Variable: When we want a particular method to hold same value of variable
