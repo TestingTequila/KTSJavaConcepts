@@ -1,0 +1,139 @@
+variables : like boxes, containers that can hold some value
+             1. dataType variableName = value; // int x = 10; [when we know the exact value to store]
+             2. dataType variableName;         // int x;      [when we don't know the exact value to store]
+
+
+    dataTypes:
+       primitive data type
+         where we know in advance how much memory they will consume
+          Integer Numbers[byte, short, int, long] ==> int{if we have to do some mathematical operations]
+          decimal Numbers[float, double] ==> up to 5-6 decimal places{float}, more than 6 decimal places{double}
+          anything as single char [char]
+          char n = '1'
+          char m = '2'
+          char sum =m+n;  // This won't follow mathematical rules instead will use Ascii rules
+          true/false[boolean]
+
+    non-primitive data type
+        where we are unsure about memory consumption
+
+    MathOperations:
+        a) I/I = I part
+           9/2 = 4
+
+        b) D/I or I/D or D/D = I+D Part
+           9.0/2 0r 9/2.0 or 9.0/2.0 = 4.5
+
+        c) Mod Operator: This gives you the remainder
+           9/2 = 1{Remainder}
+
+        d) Increment Operator [i++, ++i]
+           int x = 1;
+           int y = x++;
+           System.out.println(x);//2
+           System.out.println(y);//1
+
+           int x =1;
+           int y = ++x;
+           System.out.println(x)//2
+           System.out.println(y)//2
+
+        e) Decrement Operator
+            int x = 1;
+            int y = x--;
+            System.out.println(x);//0
+            System.out.println(y);//1
+
+            int x =1;
+            int y = --x;
+            System.out.println(x)//0
+            System.out.println(y)//0
+
+
+    Statements: [To make Decisions]
+        if-else Statement             [when we have to make single decision]
+        multiple if else if statement [when we have to make condition based multiple decisions]
+        switch statement               [when we have to make condition based multiple decisions] - Faster
+          switch will not support: >, <, >=, <=, long, float, double, boolean, &&
+          This means, use switch only if you have to make decision over the exact value
+
+
+    Loops: [Repeat tasks]
+        while loop
+        [if we know the starting and ending point of program]
+        [we can also use it if we are unsure about in how many iterations, end point will be achieved]
+
+        variable
+        while(applyConditionOverVariable)
+        {
+          code here will execute only if condition is true;
+          I/D operator;
+        }
+
+
+        for loop
+        [if we know the starting and ending point of program]
+
+        for(variable;applyConditionOverVariable;I/D operator)
+        {
+           code here will execute only if condition is true
+        }
+
+
+        advanced for loop [over groups] [you can use this only if you have to traverse over all the values in a group]
+
+        for(dataTypeOfGroup aliasName :nameOfTheGroup)
+        {
+           perform action over aliasValue;
+        }
+
+
+    Arrays: Boxes with multiple sections that can hold multiple value at a time
+            1. dataType[] arrayName = {value1, value2, value3, value4........};
+               [when we know the exact values to store]
+               int[] marks = {12,14,56,78,56};
+
+            2. dataType[] arrayName = new dataType[countOfValuesYouWantToStore]
+               [when we don't know the exact values to store but know there count]
+               WAP to store the marks of 10 students
+               int[] marks = new int[10]
+
+            Lowest index = 0
+            Highest Index = size-1
+            naming of every section
+            arrayName[lowestIndex]......................................arrayName[highestIndex]
+            marks[0].......................................marks[9]
+
+    Class : A Template [which ideally doesn't hold any data]
+    Object: Every copy of the template is known as its object
+    Relationship b/w class & Object OR Syntax to create Object
+    NameOfTheClassWhoseCopyYouWantTOCreate nameOfCopy/Object= new NameOfTheClassWhoseCopy/ObjectWeWantTOcreate();
+    Ex: Automobile
+    Automobile taxi = new Automobile();
+
+
+    Methods:
+    Layman's Definition: Reason for storing any variable or array is method
+                         Or the purpose why you store something, the purpose itself is method.
+
+    Technical Definition: Methods are actions performed over class variables
+
+    accessModifier returnType methodName(can/t parameters)
+    {
+      action to perform
+    }
+
+   accessModifier : public/private/protected
+                    public - if we want to share that method with other classes
+                    private- if we don't want to share with other classes
+                    protected - if we want to share with classes related to me
+
+   returnType:      void/dataTypes
+   parameters:     variables within the curved bracket
+
+
+   method Without Parameter() Without Return Type[void]
+   method With Parameter(something) Without Return Type[void]
+   method Without Parameter() With Return Type [dataType]
+   method With Parameter(something) With Return Type [dataType]
+
