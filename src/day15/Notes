@@ -1,0 +1,38 @@
+A ------------------------------------------> B
+
+i) Either he follows the traffic rules
+    He will reach the destination on time.
+
+ii) Either he is not following the traffic rules
+
+    a) He might get into some accident
+    b) He might be caught by traffic cop
+    c) He might be fined
+    d) He might be jailed
+    e) He might be caught, fines and Jailed
+    f) He might reach his destination late
+    h) He might reach his destination without any of the above things happening
+
+
+    OOPs Concepts:
+
+    -> your code will be safe and secure
+    -> Reusable [less lines of code]
+    -> we can make use of variables and methods with same name but different outputs
+    -> Easy code management
+
+
+    ENCAPSULATION
+       -DATA HIDING
+
+    POLYMORPHISM: Methods with same name but different actions
+       -METHOD OVERLOADING: methods with same name & different signature [compile time polymorphism/static polymorphism]
+       -METHOD OVERRIDING
+
+    INHERITANCE
+        -ABSTRACTION
+        -INTERFACE
+
+POLYMORPHISM:[MANY + FORMS]
+
+
