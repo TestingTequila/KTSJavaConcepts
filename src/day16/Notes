@@ -1,0 +1,4 @@
+Properties whose value remains same across all the objects, such properties should be made static
+Anything that is static will not be part of object, it rather belongs to CMA
+What belongs to CMA is called using the class name
+
