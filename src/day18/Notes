@@ -1,0 +1,16 @@
+CONSTRUCTORS:
+
+=> How to create a constructor:
+
+a) The name of the constructor will always be same as the name of the class to which it belongs
+b) The constructor will not have any return type including void
+
+public sameNameAsTheClassName()
+{
+   logic
+}
+
+=> How is Constructor called
+   Its called automatically the moment we create object of the class. So we don't have to call
+   Constructors explicitly like non static variables/methods or static variables or methods
+
