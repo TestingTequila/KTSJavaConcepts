@@ -1,0 +1,27 @@
+ENCAPSULATION:
+   creating a variable & Method -> within the boundaries of a class
+    Data Hiding {Variable Hiding}
+    make variables private
+    and access this private variables through setter and getter method
+
+    1) private variable, public method [setter & getter method] => Use setter for non-mandatory + mutable data
+    2) private variable, constructor   => Use constructors for mandatory data and non-mutable data [jis data ko kabhi change nhi karna hai]
+
+
+     Rules to use Constructor
+       -setting multiple values at one and same time
+       -setting values of mandatory fields
+       -setting values of non-mutable fields
+
+     Rules for Setter method
+       -setting one value at a time
+       -setting values of non-mandatory fields
+       -setting values of mutable fields
+
+
+     Constructor + Setter
+        -setting value though constructor
+        -updating value through setter
+
+
+     3) private methods encapsulated within public method
