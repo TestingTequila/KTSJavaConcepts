@@ -1,0 +1,7 @@
+Usage of 'this' keyword
+
+1. Global variable and parameters with same name.
+2. To call the constructors of the same class or to call one constructor inside of other constructor[constructor chaining]
+   constructor calling should be the first statement inside of other constructor.
+3. We can call non-static methods of the same class, within each other using this keyword
+4. To return object of the same class [Builder Pattern]
