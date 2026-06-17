@@ -1,0 +1,39 @@
+Call By Value
+Call By Reference
+
+Both Call by Value [setter method] and CAll by Reference[normal method with obj as parameter] is
+used for updating an existing object
+
+Call by Value is used to update one value of the object at a time
+Call by Reference is used to update multiple value of an object at a time
+
+---------------------------------------------------------------------------------------------------
+CRUD: Create[setter/constructor], Retrieve[getter method], Update[setter/CBR], Delete
+While making variable, think
+
+should we make it global - if its value has to be shared by multiple methods of the same class
+should we pass it as parameter - if its value is not to be shared with other methods of the same class
+should we make it local - if the value will remain same/fixed where ever this is needed and can't be changed
+
+
+If the global variable is holding sensitive data, as per encapsulation, we should make it private
+now, if we make this private, i cannot access it and set its value
+so now to set the value of private variable we have 2 options
+ 1. constructor [if these variables are mandatory]
+ 2. setter method[if these variables are non-mandatory]
+
+If i have to update the value of these variables, we have 2 options
+ 1. Call by value [using setter method to update one value at a time]
+ 2. Call by reference [create method with object as parameter, to update multiple values ar a time]
+
+OOPs
+Polymorphism:
+  method overloading -- Done
+  method overriding  -- Pending
+
+Encapsulation
+  data hiding -- Done
+
+Inheritance
+   Abstraction --Pending
+   Interface   --Pending
