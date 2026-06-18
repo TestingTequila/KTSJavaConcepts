@@ -1,0 +1,8 @@
+Concrete method : Definition + Implementation
+Abstract Method : Only Definition
+
+Class :         has only concrete methods
+Interface:      has only abstract methods
+Abstract Class: can have both abstract & concrete methods
+
+We cannot crete object of Abstract class and Interface
