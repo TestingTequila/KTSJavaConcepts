@@ -1,0 +1,10 @@
+Multiple Inheritance is not possible among CLASSES in Java and this is also known as
+Diamond problem.
+
+BMW bmw1 = new Car(); //Down casting is not possible in Java
+
+•	final - To create constant value
+•	final - To prevent method overriding
+•	final - To prevent class inheritance
+
+static methods can be inherited but can't be overridden
