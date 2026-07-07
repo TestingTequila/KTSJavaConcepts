@@ -1,0 +1,42 @@
+1. Can we create object of an Interface - No
+   Why: interface has unimplemented methods and if object creation was allowed through object,
+        we would be able to call unimplemented methods and JVM will say, what to do with
+        unimplemented methods
+
+2. Can we have constructors inside of an Interface - No
+   Why: 1) Constructors are used to initialize(assign value) to variables but in case of interface
+           variable are final by default and being final we have to assign them the value, the
+           moment they are created, so they are no longer dependent on constructors to get their value;
+        2) Constructors are called automatically the moment we create object but in case of interface
+           object creation is not possible so there is no way constructor of an interface if creation is allowed
+           can be  called.
+
+3. Can we create object of abstract class - No
+   Why: abstract class has some unimplemented methods along with implemented methods
+        and if object creation was allowed through object, we would be able to call
+        unimplemented methods and JVM will say, what to do with unimplemented methods
+
+4. Can we create Constructor inside of an Abstract class - Yes
+   Constructors are used to initialize(assign value) to variables and here we will need constructors to
+   assign values to these variables
+
+5. Can abstract methods be static - No
+   Why: Because static methods cannot be overridden whereas abstract methods are meant to be overridden
+
+6. Can abstract methods be private - No
+   Why: Because abstract methods are meant to be inherited in order to be implemented, making them private
+        stops their inheritance
+
+7. Can we override Variables = No
+8. Can interface/abstract class abstract methods be final - No
+   Why: Because interface/abstract class abstract methods are meant to be overridden and making them final
+         prohibits them from being overridden
+
+9.An interface can have concrete methods, provided that
+  i)  its static
+  ii) it has access modifier as default
+
+10. Unlike static method/s of class or abstract class[which can be inherited], static method/s of an interface
+    cannot be inherited
+
+

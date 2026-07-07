@@ -1,0 +1,7 @@
+Child class constructor[be it default or parametrized] will always call parent class
+default constructor until and unless child class constructor is not to call the parametrized
+constructor of Parent class by using super keyword
+
+===============================================
+Stack memory stores the reference variables of the objects being created.
+To maintain the execution order
